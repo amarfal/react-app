@@ -7,8 +7,15 @@ function Greeting() {
       <img
         src={steakImage}
         alt="Delicious Steak"
-        style={{ width: "1000px", height: "auto" }}
+        style={{ width: "100px", height: "auto" }}
       />
+      <h1>Test title</h1>
+      <svg>
+        <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="4" />
+      </svg>
+      <form>
+        <input type="text" />
+      </form>
     </div>
   );
 }
