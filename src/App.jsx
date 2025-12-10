@@ -1,6 +1,6 @@
-import AnimalsList from "./AnimalsList.jsx";
-import Greeting from "./Greetings.jsx";
-import TodoList from "./TodoList.jsx";
+import AnimalsList from "./components/AnimalsList.jsx";
+import Greeting from "./components/Greetings.jsx";
+import TodoList from "./components/TodoList.jsx";
 
 function App() {
   return (
