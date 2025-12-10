@@ -9,9 +9,9 @@ function Greeting() {
         alt="Delicious Steak"
         style={{ width: "100px", height: "auto" }}
       />
-      <h1>Test title</h1>
+      <h1>Circle</h1>
       <svg>
-        <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="4" />
+        <circle cx="70" cy="70" r="40" stroke="green" strokeWidth="4" />
       </svg>
       <form>
         <input type="text" />
