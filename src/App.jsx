@@ -1,6 +1,7 @@
 import AnimalsList from "./components/AnimalsList.jsx";
 import Greeting from "./components/Greetings.jsx";
 import TodoList from "./components/TodoList.jsx";
+import ClickMeButton from "./components/ClickMeButton.jsx";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Greeting />
       <AnimalsList />
       <TodoList />
+      <ClickMeButton />
     </div>
   );
 }

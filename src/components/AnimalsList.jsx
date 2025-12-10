@@ -16,15 +16,15 @@ function List(props) {
   );
 }
 
-function App() {
+function AnimalsList() {
   const animals = [];
 
   return (
     <div>
-      <h1>Animals: </h1>
+      <h1>Animal List</h1>
       <List animals={animals} />
     </div>
   );
 }
 
-export default App;
+export default AnimalsList;

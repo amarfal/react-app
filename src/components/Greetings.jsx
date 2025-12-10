@@ -11,7 +11,7 @@ function Greeting() {
       />
       <h1>Hi, I'm a circle!</h1>
       <svg>
-        <circle cx="70" cy="70" r="40" stroke="green" strokeWidth="4" />
+        <circle cx="70" cy="70" r="40" stroke="blue" strokeWidth="4" />
       </svg>
       <form>
         <input
