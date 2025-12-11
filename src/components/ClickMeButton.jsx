@@ -1,18 +1,31 @@
-function Button(props) {
+function Button({
+  text = "Click Me!",
+  color = "blue",
+  fontSize = 16,
+  onClick,
+}) {
   const buttonStyle = {
-    color: props.color,
-    fontSize: props.fontSize + "px",
+    color: color,
+    fontSize: fontSize + "px",
   };
 
-  return <button style={buttonStyle}>{props.text}</button>;
+  return (
+    <button onClick={onClick} style={buttonStyle}>
+      {text}
+    </button>
+  );
 }
 
 export default function App() {
+  const handleButtonClick = (url) => {
+    window.location.href = url;
+  };
+
   return (
     <div>
-      <Button text="Click Me!" color="blue" fontSize={16} />
-      <Button text="Don't Click Me!" color="red" fontSize={16} />
-      <Button text="Click Me!" color="blue" fontSize={16} />
+      <Button
+        onClick={() => handleButtonClick("https://www.theodinproject.com")}
+      />
     </div>
   );
 }
